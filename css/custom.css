@@ -16,18 +16,11 @@ body {
 
 .portfolio-container {
   padding: 120px 0 120px 0;
-  background-color: white;
 }
 
 .portfolio-left {
-  background-color: red;
-  
 }
 .portfolio-main {
-  background-color: white;
-  
 }
 .portfolio-right {
-  background-color: blue;
-  
 }
