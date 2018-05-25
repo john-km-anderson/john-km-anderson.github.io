@@ -1,13 +1,14 @@
 body {
- height: 100%;
-  background-color: #fbf2e6;
 }
 
 .cover-container {
   text-align: center;
+  background-color: #fbf2e6;
+  width: 100%;
+  height: 100vh;
 }
 
 .name {
  color: #181c1f;
- font-size: 10rem;
+ font-size: 8.5rem;
 }
