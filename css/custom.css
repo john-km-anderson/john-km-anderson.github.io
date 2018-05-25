@@ -9,8 +9,9 @@ body {
 }
 
 .name {
- color: #181c1f;
- font-size: 7rem;
+  color: #181c1f;
+  font-size: 7rem;
+  font-family: font-family: 'Abril Fatface', cursive;
 }
 
 .portfolio-container {
