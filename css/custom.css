@@ -14,18 +14,19 @@ body {
 }
 
 .portfolio-container {
-  background-color: # white;
+  padding: 120px 0 120px 0;
+  background-color: white;
 }
 
 .portfolio-left {
-  background-color: # red;
+  background-color: red;
   
 }
 .portfolio-main {
-  background-color: # white;
+  background-color: white;
   
 }
 .portfolio-right {
-  background-color: # blue;
+  background-color: blue;
   
 }
