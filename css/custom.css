@@ -3,12 +3,29 @@ body {
 
 .cover-container {
   text-align: center;
-  background-color: #fbf2e6;
+  background-color: #ffc982;
   width: 100%;
   height: 100vh;
 }
 
 .name {
  color: #181c1f;
- font-size: 8.5rem;
+ font-size: 7rem;
+}
+
+.portfolio-container {
+  background-color: # white;
+}
+
+.portfolio-left {
+  background-color: # red;
+  
+}
+.portfolio-main {
+  background-color: # white;
+  
+}
+.portfolio-right {
+  background-color: # blue;
+  
 }
