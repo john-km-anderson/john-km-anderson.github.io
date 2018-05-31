@@ -82,12 +82,20 @@ p {
   opacity: 0.3;
 }
 
+#showcase .content-wrap {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
 #showcase h1 {
   font-family: 'Playfair Display', serif;;
   font-size: 3em;
   padding-top: 30vh;
   padding-bottom: 0;
+  display: inline-block;
 }
+
 
 /* Section A */
 
@@ -102,6 +110,10 @@ p {
 }
 
 #section-a li {
+  margin-bottom: 1em;
+}
+
+#section-a img {
   margin-bottom: 1em;
 }
 
@@ -146,5 +158,9 @@ p {
   }
   #showcase h1 {
     font-size: 5em;
+  }
+
+  #section-a photo {
+    padding: 0 4px;
   }
 }
