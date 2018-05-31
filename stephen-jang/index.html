@@ -15,6 +15,14 @@
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
   <script type="text/javascript" src="js/jquery.simple-text-rotator.js"></script>
 
+  <script>
+    $(".rotate").textrotator({
+      animation: "dissolve", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
+      separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
+      speed: 2000 // How many milliseconds until the next word show.
+    });
+  </script>
+  
   <title>Stephen Jang</title>
 </head>
 
@@ -41,7 +49,7 @@
     <div class="bg-image"></div>
     <div class="content-wrap">
       <h1>Stephen Jang</h1>
-      <p>is a <span class="rotate">photographer, videographer</span> based in Los Angeles.</p>
+      <p>is a <span class="rotate">photographer, videographer</span> based in Los! Angeles.</p>
       <a href="#section-a" class="btn">Portfolio</a>
     </div>
   </header>
