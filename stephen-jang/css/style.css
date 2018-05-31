@@ -2,7 +2,7 @@
 
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   background: #333;
   color: #fff;
   font-size: 1em;
@@ -29,7 +29,7 @@ p {
 .btn {
   display: inline-block;
   background: #333;
-  color: #fff;
+  color: #DCDCDC;
   text-decoration: none;
   padding: 0.7em 1em;
   border: 1px solid #666;
@@ -37,7 +37,7 @@ p {
 }
 
 .btn:hover {
-  background: #eaeaea;
+  background: #DCDCDC;
   color: #333;
 }
 
@@ -63,7 +63,7 @@ p {
 
 #showcase {
   min-height: 100vh;
-  color: #fff;
+  color: #DCDCDC;
   text-align: center;
 }
 
@@ -81,6 +81,8 @@ p {
 }
 
 #showcase h1 {
+  font-family: 'Playfair Display', serif;;
+  font-size: 3em;
   padding-top: 30vh;
   padding-bottom: 0;
 }
@@ -131,4 +133,16 @@ p {
 
 #main-footer a:hover {
   color: #eee;
+}
+
+/* Media Queries */
+
+@media(min-width: 700px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #showcase h1 {
+    font-size: 5em;
+  }
 }
