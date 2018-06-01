@@ -43,6 +43,7 @@ p {
 #showcase li {
   margin: 0;
   padding: 0;
+  padding-right: 1.6em;
 }
 
 .arrow {
