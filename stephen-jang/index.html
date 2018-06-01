@@ -9,8 +9,19 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
     crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display" rel="stylesheet">
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/morphext.css">
   
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/parallax.js" async></script>
+  <script type="text/javascript" src="js/morphext.min.js" async></script>
+  <script type"text/javascript" src="js/box.js" async></script>
+
   <title>Stephen Jang</title>
 </head>
 
@@ -33,11 +44,10 @@
   </nav>
 
   <!-- Header Showcase -->
-  <header id="showcase">
-    <div class="bg-image"></div>
+  <header id="showcase" class="parallax-bg">
     <div class="content-wrap">
-      <h1>Stephen Jang</h1>
-      <p>is a photographer, videographer based in Los Angeles.</p>
+      <h1 class="title parallax-box">Stephen Jang</h1>
+      <p>is a <span id="js-rotating">photographer, filmmaker</span> based in Los Angeles.</p>
       <a href="#section-a" class="btn">Portfolio</a>
     </div>
   </header>
@@ -48,60 +58,19 @@
     <!-- Section A -->
 
     <section id="section-a" class="grid">
-      <!--
-      <ul>
-        <li>
-          <div class="photo">
-            <img src="img/boardwalk.jpg">
-          </div>
-        </li>
-        <li>
-          <div class="photo">
-            <img src="img/dress.jpg">
-          </div>
-        </li>
-        <li>
-          <div class="photo">
-            <img src="img/feather.jpg">
-          </div>
-        </li>
-        <li>
-          <div class="photo">
-            <img src="img/foot.jpg">
-          </div>
-        </li>
-        <li>
-          <div class="photo">
-            <img src="img/flower.jpg">
-          </div>
-        </li>
-        <li>
-          <li>
-            <div class="photo">
-              <img src="img/plant.jpg">
-            </div>
-          </li>
-          <li>
-            <div class="photo">
-              <img src="img/canyon.jpg">
-            </div>
-          </li>
-          <li>
-            <div class="photo">
-              <img src="img/arm.jpg">
-            </div>
-          </li>
-      </ul>
-    -->
       <div class="photo">
         <img src="img/boardwalk.jpg">
         <img src="img/dress.jpg">
-        <img src="img/feather.jpg">
       </div>
       <div class="photo">
+        <img src="img/feather.jpg">
         <img src="img/flower.jpg">
+      </div>
+      <div class="photo">
         <img src="img/plant.jpg">
         <img src="img/canyon.jpg">
+      </div>
+      <div class="photo">
         <img src="img/arm.jpg">
         <img src="img/foot.jpg">
       </div>
@@ -128,7 +97,7 @@
 
   <!-- Footer -->
   <footer id="main-footer" class="grid">
-    <div>Project by
+    <div>Site by
       <a href="http://aaronkmseo.com" target="blank">Aaron K. M. Seo</a>
     </div>
   </footer>
