@@ -89,6 +89,7 @@ p {
   font-size: 4em;
   padding-top: 0vh;
   padding-bottom: 0;
+  margin-top: -200px;
   display: inline-block;
 }
 
@@ -166,20 +167,13 @@ p {
   .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 1em;
-  }
-  #showcase h1 {
-    font-size: 5em;
   }
 
-}
-
-@media(min-width: 700px) {
-  .grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  #showcase {
+    min-height: 80vh;
   }
-  #showcase h1 {
+
+  #showcase .title {
     font-size: 5em;
   }
 
@@ -197,8 +191,10 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
-  #showcase h1 {
+
+  #showcase .title {
     font-size: 5em;
+    margin-top: -50px;
   }
 
   #section-b div{
@@ -215,6 +211,7 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
+
   #showcase .title {
     font-size: 7.2em;
   }
