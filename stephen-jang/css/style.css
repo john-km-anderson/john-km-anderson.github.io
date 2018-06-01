@@ -40,9 +40,13 @@ p {
   padding: 0;
 }
 
+#showcase li {
+  margin: 0;
+  padding: 0;
+}
 
 .arrow {
-  position: absolute;
+  position: fixed;
   text-decoration: none;
   color: #DCDCDC;
   float: center;
@@ -89,7 +93,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 15em 2em 0em 2em;
-  min-height: 80vh;
+  min-height: 100vh;
   color: #DCDCDC;
   text-align: center;
 }
@@ -111,8 +115,9 @@ p {
 }
 
 #showcase p {
-  font-size: 0.9em;
+  font-size: 0.82em;
 }
+
 
 #showcase #js-rotating{
   font-size: 1.3em;
@@ -187,6 +192,10 @@ p {
 
   #showcase .title {
     font-size: 5em;
+  }
+
+  #showcase p {
+    font-size: 1.2em;
   }
 
   #section-b div{
