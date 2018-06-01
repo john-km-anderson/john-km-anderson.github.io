@@ -2114,8 +2114,8 @@
 }
 
 .flipOutX {
-  -webkit-animation-duration: 0.75s;
-  animation-duration: 0.75s;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
   -webkit-animation-name: flipOutX;
   animation-name: flipOutX;
   -webkit-backface-visibility: visible !important;
@@ -3492,3 +3492,4 @@
   -webkit-animation-name: slideOutUp;
   animation-name: slideOutUp;
 }
+
