@@ -1,0 +1,23 @@
+html, body {
+    font-family: 'Playfair Display', serif;;
+}
+
+.hero {
+    background: url('../img/behappy.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero .nav, .hero.is-sucess .nav {
+    box-shadow: none;
+}
+
+.hero h1{
+    font-size: 3em;
+}
+
+.hero .subtitle {
+    padding: 3rem 0;
+    line-height: 1.5;
+}
